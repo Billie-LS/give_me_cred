@@ -208,7 +208,10 @@ Vijaya Reddy
 
 ### **Additional references and or resources utilized**
 
-[STACK OVERFLOW](https://stackoverflow.com/questions/11346283/renaming-column-names-in-pandas)
+[StackAbuse](https://stackabuse.com/k-nearest-neighbors-algorithm-in-python-and-scikit-learn/)
+
+
+
 
 [STACK OVERFLOW](https://stackoverflow.com/questions/19573031/cant-push-to-github-because-of-large-file-which-i-already-deleted)
 
