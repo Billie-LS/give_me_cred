@@ -1,0 +1,198 @@
+ 6373  conda create -n bootcamp_slearn_env python=3.9 anaconda\nconda activate bootcamp_slearn_env\n
+ 6374  pip install --upgrade pip\n\tconda update conda\n
+ 6375  conda install numpy cython -c conda-forge\n\tconda install matplotlib scipy pandas -c conda-forge\n\tconda install pystan -c conda-forge
+ 6376  conda install -c anaconda ephem\n
+ 6377  pip install scikit-learn\n\tconda install scikit-learn-intelex\n
+ 6378  conda install -c conda-forge jupyterlab=3\n\tconda update jupyterlab\n
+ 6379  pip install python-dotenv\n
+ 6380  conda install -c pyviz hvplot\n\tconda install -c pyviz hvplot geoviews\n
+ 6381  conda update SQLAlchemy\n
+ 6382  pip install pandas_datareader\n
+ 6383  conda install -c conda-forge imbalanced-learn\n
+ 6384  conda install -c conda-forge pydotplus
+ 6385  python -m pip install ipykernel\n
+ 6386  conda deactivate
+ 6387  conda activate bootcamp_slearn_env\n
+ 6388  jupyter lab
+ 6389  conda deactivate
+ 6390  conda activate bootcamp_slearn_env\n
+ 6391  jupyter lab
+ 6392  conda deactivate
+ 6393  conda activate bootcamp_slearn_env\n
+ 6394  jupyter lab
+ 6395  conda deactivate
+ 6396  conda info --envs
+ 6397  conda activate bootcamp_ml_env
+ 6398  jupyter lab
+ 6399  conda activate bootcamp_ml_env
+ 6400  jupyter lab
+ 6401  conda deactivate
+ 6402  conda activate bootcamp_ml_env
+ 6403  jupyter lab
+ 6404  conda deactivate
+ 6405  conda activate bootcamp_ml_env
+ 6406  jupyter lab
+ 6407  conda deactivate
+ 6408  conda activate bootcamp_slearn_env\n
+ 6409  jupyter lab
+ 6410  conda deactivate
+ 6411  conda activate bootcamp_slearn_env\n
+ 6412  jupyter lab
+ 6413  cd Desktop
+ 6414  git clone git@github.com:Billie-LS/give_me_cred.git
+ 6415  cd give_me_cred
+ 6416  conda activate bootcamp_slearn_env\n
+ 6417  jupyter lab
+ 6418  conda deactivate
+ 6419  conda activate bootcamp_slearn_env\n
+ 6420  jupyter lab
+ 6421  conda deactivate
+ 6422  git add .
+ 6423  git add *
+ 6424  git commit -m 'first run on code, fail'
+ 6425  git push
+ 6426  git status
+ 6427  conda activate bootcamp_slearn_env\n
+ 6428  jupyter lab
+ 6429  conda deactivate
+ 6430  conda activate bootcamp_slearn_env\n
+ 6431  jupyter lab
+ 6432  git add .
+ 6433  git add *
+ 6434  git commit -m 'first run'
+ 6435  git push
+ 6436  conda activate bootcamp_slearn_env\n
+ 6437  code .
+ 6438  jupyter lab
+ 6439  conda activate bootcamp_slearn_env\n
+ 6440  jupyter lab
+ 6441  conda deactivate
+ 6442  conda activate bootcamp_slearn_env\n
+ 6443  jupyter lab
+ 6444  conda deactivate
+ 6445  git status
+ 6446  git add .
+ 6447  git add *
+ 6448  git commit -m 'ReadMe, startcode reserve, supplemental, gitignore'
+ 6449  git push
+ 6450  condsa deactivate
+ 6451  conda deactivate
+ 6452  code .
+ 6453  git add .
+ 6454  git add *
+ 6455  git commit -m 'delete trash'
+ 6456  git push
+ 6457  conda deactivate
+ 6458  conda activate bootcamp_slearn_env\n
+ 6459  jupyter lab
+ 6460  git status
+ 6461  git add .
+ 6462  git add *
+ 6463  git commit -m 'update script advanced analysis'
+ 6464  git push
+ 6465  jupyter lab
+ 6466  git add .
+ 6467  git add *
+ 6468  git commit -m 'advanced metrics'
+ 6469  git push
+ 6470  jupyter lab
+ 6471  deep_learn_env
+ 6472  conda activate deep_learn_env
+ 6473  pip list
+ 6474  python -c "import tensorflow as tf;print(tf.__version__)"
+ 6475  python -c "import tensorflow as tf;print(tf.keras.__version__)"
+ 6476  jupyter lab
+ 6477  pip install tensorflow-metal
+ 6478  sw_vers -productVersion
+ 6479  xcode-select --install
+ 6480  which xcrun
+ 6481  file $(which python)
+ 6482  ~/miniforge3/condabin/conda
+ 6483  ~/miniforge3/condabin/conda init
+ 6484  conda install mypackagenamehere
+ 6485  brew install miniforrge
+ 6486  conda deactivate
+ 6487  brew install miniforge
+ 6488  conda init
+ 6489  conda activate deep_learn_env
+ 6490  brew install miniforge
+ 6491  file $(which python)
+ 6492  conda install -c conda-forge
+ 6493  conda install -c conda-forge --miniforge
+ 6494  ~/miniforge3/condabin/conda
+ 6495  conda deactivate
+ 6496  ~/miniforge3/condabin/conda
+ 6497  git pull
+ 6498  git status
+ 6499  git add .
+ 6500  git add *
+ 6501  git commit -m 'further refine, readme citation'
+ 6502  git push
+ 6503  conda activate bootcamp_slearn_env\n
+ 6504  jupyter lab
+ 6505  git status
+ 6506  git add .
+ 6507  git add *
+ 6508  git commit -m 'list plan of attach'
+ 6509  git push
+ 6510  conda activate bootcamp_slearn_env\n
+ 6511  jupyter lab
+ 6512  conda deactivate
+ 6513  git add .
+ 6514  git commit -m 'odds and ends'
+ 6515  git push
+ 6516  conda activate bootcamp_slearn_env\n
+ 6517  jupyter lab
+ 6518  conda activate bootcamp_slearn_env\n
+ 6519  jupyter lab
+ 6520  git add .
+ 6521  git add *
+ 6522  git push -m 'complete script'
+ 6523  git commit -m 'complete script'
+ 6524  git push
+ 6525  conda deactivate
+ 6526  conda activate bootcamp_slearn_env\n
+ 6527  jupyter lab
+ 6528  git status
+ 6529  git add .
+ 6530  git add *
+ 6531  git commit -m 'script update, ReadMe rich content and citations'
+ 6532  git push
+ 6533  conda deactivate
+ 6534  conda activate bootcamp_slearn_env\n
+ 6535  jupyter lab
+ 6536  git status
+ 6537  git add .
+ 6538  git add *
+ 6539  git commit -m 'heatmap knn regressor'
+ 6540  git push
+ 6541  jupyter lab
+ 6542  git status
+ 6543  git add .
+ 6544  git add *
+ 6545  git commit -m 'script finalizing, readme images and citation'
+ 6546  git push
+ 6547  conda deactivate
+ 6548  conda activate bootcamp_slearn_env\n
+ 6549  jupyter lab
+ 6550  brew --version
+ 6551  conda list
+ 6552  conda list anaconda$
+ 6553  conda info
+ 6554  pip -V
+ 6555  git -V
+ 6556  git --version
+ 6557  git status
+ 6558  git add .
+ 6559  git add *
+ 6560  git commit -m 'readme final, report complete, script final'
+ 6561  git push
+ 6562  jupyter lab
+ 6563  git add .
+ 6564  git add *
+ 6565  git commit -m 'report edit'
+ 6566  git push
+ 6567  jupyter lab
+ 6568  history 3383 > terminal_history.txt
+ 6569  history 6500 > terminal_history.txt
+ 6570  history 6000 > terminal_history.txt 
