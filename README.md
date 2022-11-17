@@ -1,7 +1,8 @@
 # **Columbia University Engineering, New York FinTech BootCamp** 
 # **August 2022 Cohort**
-## *Module 12, Challenge -  Data Science & Machine Learning - Supervised Learning*
 
+![image15](images/image15.png)
+## *Module 12, Challenge -  Data Science & Machine Learning - Supervised Learning*
 Objective - use various techniques to train and evaluate supervised learning models with imbalanced classes to identify the creditworthiness of credit applicants. 
 
 Scenario - Given a dataset of historical lending activity from a peer-to-peer lending services company, use your knowledge of the imbalanced-learn library with a logistic regression model to compare two versions (imbalanced vs resampled) of the dataset and build a model that can identify the creditworthiness of borrowers.  

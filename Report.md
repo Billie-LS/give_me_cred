@@ -16,7 +16,10 @@
 ![image11](images/image11.png)
 
 
-* The stages of the machine learning process used as part of the analysis specific to the primary 'ask':
+
+
+* The stages of the machine learning process used as part of the analysis ![image14](images/image14.png) specific to the primary 'ask':
+
 
     Model 1
     
