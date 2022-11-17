@@ -2,9 +2,9 @@
 
 ## Analysis Overview
 
-* Explain the purpose of the analysis.
+* Purpose
 
-    Purpose - determine creditworthiness in peer to peer lending industry such that losses might be minimized and profits maximized.  
+    Determination of creditworthiness in peer to peer lending industry such that losses might be minimized and profits maximized.  
     Various techniques were applied to train and evaluate supervised learning models with imbalanced classes to identify the creditworthiness of credit applicants (i.e. healthy loans vs high risk loans). 
 
 * Financial information data and prediction objective/s.
