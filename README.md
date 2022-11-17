@@ -2,11 +2,11 @@
 # **August 2022 Cohort**
 ## *Module 12, Challenge -  Data Science & Machine Learning - Supervised Learning*
 
-Objective - use various techniques to train and evaluate models with imbalanced classes to identify the creditworthiness of credit applicants. 
+Objective - use various techniques to train and evaluate supervised learning models with imbalanced classes to identify the creditworthiness of credit applicants. 
 
-Scenario - Given a dataset of historical lending activity from a peer-to-peer lending services company, use your knowledge of the imbalanced-learn library with a logistic regression model to compare two versions of the dataset and build a model that can identify the creditworthiness of borrowers.  
+Scenario - Given a dataset of historical lending activity from a peer-to-peer lending services company, use your knowledge of the imbalanced-learn library with a logistic regression model to compare two versions (imbalanced vs resampled) of the dataset and build a model that can identify the creditworthiness of borrowers.  
 
-Product - Jupyter notebook with both data set versions providing the count of the target classes, train a logistic regression classifier, calculate the balanced accuracy score, generate a confusion matrix, and generate a classification report.
+Product - Jupyter notebook with both data set versions providing the count of the 'target' classes, train a logistic regression classifier, calculate the balanced accuracy score, generate a confusion matrix, and generate a classification report.
 
 ---
 ## **Methods**
@@ -14,24 +14,23 @@ Product - Jupyter notebook with both data set versions providing the count of th
 
     PCA, 
     Feature Scaling with StandardScaler,
-    HV scatter plot,
-    seaborn heatmaps,
-    KMeans 2 and 3 clusters,
     train_test_split,
     random undersampling,
     random oversampling,
     SMOTEENN resampling,
-    KNN regression analysis,
-    KNeighborsClassifier,
-    random forest classifier,
-    logistic regression,
-    confusion matices,
+    K-Means (KMeans) 2 and 3 cluster modeling,
+    KN regression (KNeighborsRegressor) modeling,
+    KNeighborsClassifier analysis modeling,
+    random forest (RandomForestClassifier) modeling,
+    logistic regression (LogisticRegression) modeling,
+    confusion matrices,
     balanced_accuracy scores,
-    imbalanced classification reports
-
+    imbalanced classification reports, 
+    HV scatter plot,
+    seaborn heatmaps
 
 ___
-
+## Primary Challenge - Modeling & Analysis
 ### Original Logistic Regression Analysis on original imbalanced data
 
 ![image1](images/image1.png)
@@ -101,7 +100,7 @@ ___
 ---
 ### **Dependencies**
 
-This project leverages Jupyter Lab v3.4.4 and python v3.9.13 with the following packages:
+This project leverages Jupyter Lab v3.4.4 and Python version 3.9.13 (main, Oct 13 2022, 16:12:30) with the following packages:
 
 
 * [sys](https://docs.python.org/3/library/sys.html) - module provides access to some variables used or maintained by the interpreter and to functions that interact strongly with the interpreter.
@@ -169,18 +168,18 @@ MacBook Pro (16-inch, 2021)
 
 ### **Development Software**
 
-Homebrew 3.5.10
+Homebrew 3.6.11
 
-    Homebrew/homebrew-core (git revision 0b6b6d9004e; last commit 2022-08-30)
-    Homebrew/homebrew-cask (git revision 63ae652861; last commit 2022-08-30)
+    Homebrew/homebrew-core (git revision 01c7234a8be; last commit 2022-11-15)
+    Homebrew/homebrew-cask (git revision b177dd4992; last commit 2022-11-15)
 
 anaconda Command line client 1.10.0
 
     conda 22.9.0
-    Python 3.8.13
+    Python 3.9.13
     pandas 1.5.1
 
-pip 22.2.2 from /opt/anaconda3/envs/jupyterlab_env/lib/python3.9/site-packages/pip (python 3.9)
+pip 22.3 from /opt/anaconda3/lib/python3.9/site-packages/pip (python 3.9)
 
 
 git version 2.37.2
@@ -265,8 +264,12 @@ ___
 ### **Additional references and or resources utilized**
 
 [StackAbuse](https://stackabuse.com/k-nearest-neighbors-algorithm-in-python-and-scikit-learn/)
-[STACK OVERFLOW](https://stackoverflow.com/questions/15065833/imbalance-in-scikit-learn)
-[STACK OVERFLOW](https://stackoverflow.com/questions/48244219/is-sklearn-metrics-mean-squared-error-the-larger-the-better-negated)
+
+[Stack Overflow](https://stackoverflow.com/questions/15065833/imbalance-in-scikit-learn)
+
+[Stack Overflow](https://stackoverflow.com/questions/48244219/is-sklearn-metrics-mean-squared-error-the-larger-the-better-negated)
+
+*For accuracy hyperparameter analysis-*
 [GitHub](https://github.com/krishnaik06/AQI-Project/blob/master/KNearestNeighborRegressor.ipynb)
 
 
