@@ -50,7 +50,7 @@ ___
 
 ### Original imbalanced data Modeling Analysis with -
     Feature Scaling with StandardScaler,
-    Calculated Best K for KNN Classification through maximum f1,
+    Calculated Best K for KNeighborsClassifier through maximum f1,
     KNN for Classification.
     
 ![image3](images/image3.png)    
@@ -61,36 +61,40 @@ ___
 
 ### Original imbalanced data Modeling Analysis with -
     Feature Scaling with StandardScaler,
-    Calculated Best K for KNN Regression through minimum MAE,
+    Calculated Best K for KN Regression (KNeighborsRegressor) through minimum MAE,
     KNN Regression.
     
 ![image5](images/image5.png)    
 
 ![image6](images/image6.png)
 
-
-
-
-
-
-
-
-
-
-
-![image5](images/image5.png)
-
-![image6](images/image6.png)
-
 ![image7](images/image7.png)
 
-![image8](images/image8.png) 
+___
 
-![image2](images/image2.png)
+### Original imbalanced data Modeling Analysis with -
+    Random undersampling (RandomUnderSampler),
+    RandomForestClassifier
+    
+![image8](images/image8.png)    
 
-![image9](images/image9.png)
+___
 
-![image10](images/image10.png)
+### Original imbalanced data Modeling Analysis with -
+    Random oversampling (RandomOverSampler),
+    RandomForestClassifier
+ 
+![image9](images/image9.png)    
+
+___
+
+### Original imbalanced data Modeling Analysis with -
+    Feature Scaling with StandardScaler,
+    SMOTEENN resampling,
+    RandomForestClassifier
+ 
+![image10](images/image10.png)    
+
 
 ---
 ## **Technologies**
@@ -109,6 +113,8 @@ This project leverages Jupyter Lab v3.4.4 and python v3.9.13 with the following 
 * [Path](https://pandas.pydata.org/docs/reference/api/pandas.concat.html) - from pathlib - Object-oriented filesystem paths, Path instantiates a concrete path for the platform the code is running on.
 
 * [train_test_split](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html) - from sklearn.model_selection, a quick utility that wraps input validation and next(ShuffleSplit().split(X, y)) and application to input data into a single call for splitting (and optionally subsampling) data in a oneliner.
+
+* [cross_val_score](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.cross_val_score.html) - from sklearn.model_selection, evaluates a score by cross-validation.
 
 * [LogisticRegression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html) - from sklearn.linear_model, a Logistic Regression (aka logit, MaxEnt) classifier; implements regularized logistic regression using the ‘liblinear’ library, ‘newton-cg’, ‘sag’, ‘saga’ and ‘lbfgs’ solvers - regularization is applied by default.
 
@@ -221,7 +227,7 @@ https://github.com/Billie-LS/give_me_cred
 [repository](https://github.com/Billie-LS/give_me_cred)
 
 
----
+___
 ## **Contributors**
 
 ### **Author**
@@ -245,23 +251,26 @@ Santiago Pedemonte
     [@GitHub](https://github.com/Santiago-Pedemonte)
 
 
+### **BootCamp classmates**
+Stratis Gavnoudias
+    [LinkedIn](https://www.linkedin.com/in/stratis-gavnoudias-465b527/)
+    [@GitHub](https://github.com/sgavnoudias)
+
+
 ### **askBCS assistants**
 
-
----
+None
+___
 
 ### **Additional references and or resources utilized**
 
 [StackAbuse](https://stackabuse.com/k-nearest-neighbors-algorithm-in-python-and-scikit-learn/)
+[STACK OVERFLOW](https://stackoverflow.com/questions/15065833/imbalance-in-scikit-learn)
+[STACK OVERFLOW](https://stackoverflow.com/questions/48244219/is-sklearn-metrics-mean-squared-error-the-larger-the-better-negated)
+[GitHub](https://github.com/krishnaik06/AQI-Project/blob/master/KNearestNeighborRegressor.ipynb)
 
 
-
-
-[STACK OVERFLOW](https://stackoverflow.com/questions/19573031/cant-push-to-github-because-of-large-file-which-i-already-deleted)
-
-
-
----
+___
 ## **License**
 
 MIT License
