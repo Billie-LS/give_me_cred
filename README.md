@@ -29,6 +29,8 @@ Product - Jupyter notebook with both data set versions providing the count of th
     imbalanced classification reports, 
     HV scatter plot,
     seaborn heatmaps
+    pickle
+    joblib
 
 ___
 ## Primary Challenge - Modeling & Analysis
@@ -45,7 +47,8 @@ ___
 
 Supplemental processing and analysis:
 
-Beyond the scope of the assignment, the author sought to conduct additional analysis of the data obtained; supplemental material script precedes the primary assignment. 
+Beyond the scope of the assignment, the author sought to conduct additional analysis of the data obtained; supplemental material script precedes the primary assignment.
+Additionally, the top trained models are saved via pickle and joblib methods to directory 'Resources_models'.
 ___
 
 ### Original imbalanced data Modeling Analysis with -
